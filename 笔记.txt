@@ -1,0 +1,8 @@
+对于slice：
+copy(a,b)是深拷贝，会改变地址
+a:=b,a:=b[:2]都是a对b的引用
+
+golang中函数参数传递都是值传递,传递的切片会
+r如果channel没有关闭,可用range方式阻塞的遍历：
+for data := range channel{
+}
